@@ -4,11 +4,12 @@ import os
 
 
 class Demotivator:
-    def __init__(self, top_text='', bottom_text=''):
+    def __init__(self, filename='', top_text='', bottom_text=''):
         self._top_text = top_text
         self._bottom_text = bottom_text
+        self._filename = Efilename
 
-    def create(self, file: str, watermark=None, result_filename='demresult.jpg',
+    def create(self, file: str, watermark=None, result_filename=Efilename,
                font_color='white', fill_color='black',
                font_name='times.ttf', top_size=80, bottom_size=60,
                arrange=False, use_url=False, delete_file=False) \
