@@ -9,7 +9,7 @@ class Demotivator:
         self._bottom_text = bottom_text
         
 
-    def create(self, file: str, watermark=None, result_filename='img.jpg',
+    def create(self, file: str, watermark=None, result_filename='demresult.jpg',
                font_color='white', fill_color='black',
                font_name='times.ttf', top_size=80, bottom_size=60,
                arrange=False, use_url=False, delete_file=False) \
