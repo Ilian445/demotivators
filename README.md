@@ -9,22 +9,10 @@
 ![prikol1](demresult.jpg)
 
 ## Установка
-1) Версия с последними исправлениями через GitHub (если что-то не работает, поставьте эту версию): 
-   
-   ```sh
-   pip3 install https://github.com/Infqq/simpledemotivators/archive/main.zip --upgrade
-   ```
-2) Стабильная версия из PyPi:
 
    ```sh
-   pip3 install simpledemotivators
+   pip3 install https://github.com/Ilian445/demotivators/archive/main.zip --upgrade
    ```
-3) Версия в разработке через GitHub (Данная версия может быть с багами и вообще неработоспособной! Использование Dev версии при разработке не рекомендуется):
-
-   ```sh
-   pip3 install https://github.com/Infqq/simpledemotivators/archive/dev.zip --upgrade
-   ```
-
 На Windows: pip
 
 На Linux/MacOS - pip3
