@@ -7,7 +7,6 @@ class Demotivator:
     def __init__(self, top_text='', bottom_text=''):
         self._top_text = top_text
         self._bottom_text = bottom_text
-        
 
     def create(self, file: str, watermark=None, result_filename='demresult.jpg',
                font_color='white', fill_color='black',
